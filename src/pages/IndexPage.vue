@@ -1,4 +1,10 @@
 <template>
+  <div
+    v-if="$q.screen.width >= 600"
+    style="background-color: #8a8383; color: white; text-align: center"
+  >
+    Use Mobile Phone for better experience
+  </div>
   <div class="settings-container">
     <p class="settings-title">Settings</p>
     <div class="card">
